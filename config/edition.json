@@ -1,0 +1,563 @@
+{
+  "name": "DONER",
+  "title": "DONER",
+  "homeTitle": "DONER",
+  "farmPrimaryTitle": "Stake tokens to earn DONER",
+  "farmSecondaryTitle": "",
+  "logoImage": "./images/networks/polygon-icon.png",
+  "tokenImage": "./images/networks/polygon-icon.png",
+  "homeStakingCardBackground": "./images/networks/polygon-icon.png",
+  "googleAnalytics": "",
+  "priceLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+  "socials": [
+    {
+      "label": "Twitter",
+      "icon": "TwitterIcon",
+      "href": "https://twitter.com/FarmFactoryYF"
+    },
+    {
+      "label": "Telegram",
+      "icon": "TelegramIcon",
+      "href": "https://t.me/FarmFactoryFinance"
+    }
+  ],
+  "menuOrder": [
+    "home",
+    "exchange",
+    "liquidity",
+    "farms",
+    "pools",
+    "referrals",
+    "charts"
+  ],
+  "menu": {
+    "home": {
+      "label": "Home",
+      "icon": "HomeIcon",
+      "link": {
+        "href": "/"
+      }
+    },
+    "exchange": {
+      "label": "Exchange",
+      "link": {
+        "href": "https://quickswap.exchange/#/swap?outputCurrency=0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      "icon": "ExchangeIcon"
+    },
+    "liquidity": {
+      "label": "Liquidity",
+      "icon": "LiquidityIcon",
+      "items": [
+        {
+          "label": "Get DONER-USDC LP",
+          "link": {
+            "href": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        },
+        {
+          "label": "Get DONER-MATIC LP",
+          "link": {
+            "href": "https://quickswap.exchange/#/add/ETH/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        }
+      ]
+    },
+    "farms": {
+      "label": "Farms",
+      "icon": "FarmIcon",
+      "link": {
+        "href": "/farms"
+      }
+    },
+    "pools": {
+      "label": "Pools",
+      "icon": "PoolIcon",
+      "link": {
+        "href": "/pools"
+      }
+    },
+    "referrals": {
+      "label": "Referrals",
+      "icon": "GroupsIcon",
+      "link": {
+        "href": "/referrals"
+      }
+    },
+    "charts": {
+      "label": "Charts & Listings",
+      "icon": "InfoIcon",
+      "items": [
+        {
+          "label": "QuickChart",
+          "link": {
+            "href": "https://v2.quickchart.app/token/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+          }
+        },
+        {
+          "label": "QuickSwap",
+          "link": {
+            "href": "https://info.quickswap.exchange/token/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+          }
+        },
+        {
+          "label": "PooCoin",
+          "link": {
+            "href": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+          }
+        }
+      ]
+    }
+  },
+  "chain": 137,
+  "amm": "quickswap",
+  "token": {
+    "symbol": "DONER",
+    "address": {
+      "137": "0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+    },
+    "decimals": 18,
+    "projectLink": ""
+  },
+  "contracts": {
+    "referral": {
+      "137": "0x44325103956F11e3499D1C4fAD32ef0d7374CF5e"
+    },
+    "masterChef": {
+      "137": "0x216C935E710d3B7Ed984eAE912d71256d5d07D9f"
+    }
+  },
+  "tokenUsdPid": 0,
+  "tokenEtherPid": 1,
+  "usdEtherPid": 2,
+  "startBlock": "24209652",
+  "referrals": {
+    "rate": 1
+  },
+  "farms": [
+    {
+      "pid": 0,
+      "lpSymbol": "USDC-DONER",
+      "lpAddresses": {
+        "137": "0x26DDF3E69ba186db37FA1e7F489Dc529b393692E"
+      },
+      "token": {
+        "name": "DONER",
+        "symbol": "DONER",
+        "address": {
+          "137": "0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 1,
+      "lpSymbol": "WMATIC-DONER",
+      "lpAddresses": {
+        "137": "0xe6795BbD79A9E5CF7a62Fa2fbFB9C79B98e71dB7"
+      },
+      "token": {
+        "name": "DONER",
+        "symbol": "DONER",
+        "address": {
+          "137": "0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "WMATIC",
+        "symbol": "WMATIC",
+        "address": {
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 2,
+      "lpSymbol": "WMATIC-USDC",
+      "lpAddresses": {
+        "137": "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
+      },
+      "token": {
+        "name": "WMATIC",
+        "symbol": "WMATIC",
+        "address": {
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 3,
+      "lpSymbol": "USDC-USDT",
+      "lpAddresses": {
+        "137": "0x2cF7252e74036d1Da831d11089D326296e64a728"
+      },
+      "token": {
+        "name": "USDT",
+        "symbol": "USDT",
+        "address": {
+          "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 4,
+      "lpSymbol": "USDC-DAI",
+      "lpAddresses": {
+        "137": "0xf04adBF75cDFc5eD26eeA4bbbb991DB002036Bdd"
+      },
+      "token": {
+        "name": "DAI",
+        "symbol": "DAI",
+        "address": {
+          "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 5,
+      "lpSymbol": "WMATIC-ETH",
+      "lpAddresses": {
+        "137": "0xadbF1854e5883eB8aa7BAf50705338739e558E5b"
+      },
+      "token": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "address": {
+          "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "WMATIC",
+        "symbol": "WMATIC",
+        "address": {
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 6,
+      "lpSymbol": "WMATIC-WBTC",
+      "lpAddresses": {
+        "137": "0xf6B87181BF250af082272E3f448eC3238746Ce3D"
+      },
+      "token": {
+        "name": "WBTC",
+        "symbol": "WBTC",
+        "address": {
+          "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "WMATIC",
+        "symbol": "WMATIC",
+        "address": {
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 7,
+      "lpSymbol": "WBTC-ETH",
+      "lpAddresses": {
+        "137": "0xdC9232E2Df177d7a12FdFf6EcBAb114E2231198D"
+      },
+      "token": {
+        "name": "WBTC",
+        "symbol": "WBTC",
+        "address": {
+          "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        },
+        "projectLink": "https://polygon.poocoin.app/tokens/0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2",
+        "decimals": {}
+      },
+      "quoteToken": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "address": {
+          "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+        },
+        "decimals": {},
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": false
+    },
+    {
+      "pid": 8,
+      "lpSymbol": "DONER",
+      "lpAddresses": {
+        "137": "0x26DDF3E69ba186db37FA1e7F489Dc529b393692E"
+      },
+      "token": {
+        "name": "DONER",
+        "symbol": "DONER",
+        "address": {
+          "137": "0x43CcDcf3a6eFE8CfCD15aeEfC4B486543af4b6B2"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 18
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 9,
+      "lpSymbol": "WMATIC",
+      "lpAddresses": {
+        "137": "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
+      },
+      "token": {
+        "name": "WMATIC",
+        "symbol": "WMATIC",
+        "address": {
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 18
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 10,
+      "lpSymbol": "USDC",
+      "lpAddresses": {
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      },
+      "token": {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 6
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 11,
+      "lpSymbol": "WBTC",
+      "lpAddresses": {
+        "137": "0xF6a637525402643B0654a54bEAd2Cb9A83C8B498"
+      },
+      "token": {
+        "name": "WBTC",
+        "symbol": "WBTC",
+        "address": {
+          "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 8
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 12,
+      "lpSymbol": "ETH",
+      "lpAddresses": {
+        "137": "0x853Ee4b2A13f8a742d64C8F088bE7bA2131f670d"
+      },
+      "token": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "address": {
+          "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 18
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 13,
+      "lpSymbol": "USDT",
+      "lpAddresses": {
+        "137": "0x2cF7252e74036d1Da831d11089D326296e64a728"
+      },
+      "token": {
+        "name": "USDT",
+        "symbol": "USDT",
+        "address": {
+          "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 6
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    },
+    {
+      "pid": 14,
+      "lpSymbol": "DAI",
+      "lpAddresses": {
+        "137": "0xf04adBF75cDFc5eD26eeA4bbbb991DB002036Bdd"
+      },
+      "token": {
+        "name": "DAI",
+        "symbol": "DAI",
+        "address": {
+          "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+        },
+        "projectLink": "",
+        "decimals": {
+          "137": 18
+        }
+      },
+      "quoteToken": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "address": {
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": {
+          "137": 6
+        },
+        "projectLink": "https://www.centre.io/usdc"
+      },
+      "isTokenOnly": true
+    }
+  ]
+}
